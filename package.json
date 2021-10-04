@@ -1,15 +1,11 @@
 {
-  "name": "wp-minimalist-boilerplate",
+  "name": "photo-gallery-with-api",
   "version": "1.0.0",
-  "author": "João Vilaça",
-  "description": "Minimal webpack boilerplate with HMR and sass",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jpggvilaca/webpack-boilerplate"
-  },
+  "author": "Radek Drweski",
+  "description": "Minimal webpack boilerplate with HMR and SASS",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress",
+    "start": "webpack-dev-server",
     "build": "webpack"
   },
   "keywords": [
