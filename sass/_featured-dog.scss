@@ -1,16 +1,16 @@
 .featured-dog {
+   display: flex;
    padding: $main-spacing;
    border: 1px solid $border-color;
-   display: flex;
 }
 
 .featured-dog__wrapper {
-   flex: 1;
-   height: 400px;
    position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
+   flex: 1;
+   height: 400px;
    overflow: hidden;
 
    .featured-dog__background {
